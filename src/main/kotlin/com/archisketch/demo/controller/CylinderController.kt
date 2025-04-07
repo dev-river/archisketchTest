@@ -1,11 +1,10 @@
-package com.archisketch.demo
+package com.archisketch.demo.controller
 
 import com.archisketch.demo.dto.CylinderResponse
 import com.archisketch.demo.dto.OpenApiResponse
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 import org.springframework.web.client.RestTemplate
-import org.springframework.web.client.getForObject
 
 @RestController
 class CylinderController {
