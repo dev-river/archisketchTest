@@ -1,0 +1,17 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:mysql://backend-test.ctvcd5flkzua.ap-northeast-2.rds.amazonaws.com:3306/test2
+    username: test02
+    password: user02-a3pz
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update # create, create-drop, validate, none 가능
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
