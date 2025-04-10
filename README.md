@@ -146,3 +146,5 @@ archisketchTest_강기훈
 **ETC.기타**
 ERD경로
 `src/main/resources/static/ERD.drawio.jpg`
+실행방식
+압축해제 및 InteliJ 프로젝트 open - gradle빌드 - 실행 
